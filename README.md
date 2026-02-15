@@ -53,5 +53,5 @@ Below are sample outputs from the lab:
 ---
 
 ## Author
-- [Your Name]
-- [Date]
+Siddharth Singh
+CSAI ug24 0096
