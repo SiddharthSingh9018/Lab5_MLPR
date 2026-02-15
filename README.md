@@ -1,3 +1,123 @@
+## Report: Answers to Key Questions
+
+#### 1. What are the common distance metrics used in distance-based classification algorithms?
+Metric 1: Euclidean distance
+Why Euclidean?
+Measures straight-line distance between points; intuitive and widely used.
+Effect
+Sensitive to scale and outliers; works best when features are normalized.
+
+Metric 2: Manhattan distance
+Why Manhattan?
+Measures sum of absolute differences; useful for grid-like data.
+Effect
+Less sensitive to outliers; can handle high-dimensional data better.
+
+Metric 3: Minkowski distance
+Why Minkowski?
+Generalizes Euclidean and Manhattan; allows flexibility with parameter p.
+Effect
+Choice of p affects sensitivity to feature differences.
+
+Metric 4: Cosine distance
+Why Cosine?
+Measures angle between vectors; useful for text and high-dimensional data.
+Effect
+Ignores magnitude; focuses on orientation.
+---
+#### 2. What are some real-world applications of distance-based classification algorithms?
+Image recognition
+Why distance-based?
+Compares pixel or feature vectors.
+Use:
+Face, object, and handwriting recognition.
+
+Medical diagnosis
+Why distance-based?
+Compares patient data to known cases.
+Use:
+Disease classification, anomaly detection.
+
+Document classification
+Why distance-based?
+Compares word frequency vectors.
+Use:
+Spam detection, topic categorization.
+
+Recommender systems
+Why distance-based?
+Compares user/item profiles.
+Use:
+Product, movie, and content recommendations.
+---
+#### 3. Explain various distance metrics.
+Euclidean distance
+Why?
+Straight-line distance; most common.
+Effect:
+Sensitive to scale; requires normalization.
+
+Manhattan distance
+Why?
+Sum of absolute differences; robust to outliers.
+Effect:
+Useful for sparse or grid data.
+
+Minkowski distance
+Why?
+Generalized metric; parameter p.
+Effect:
+Flexible; p=1 (Manhattan), p=2 (Euclidean).
+
+Cosine distance
+Why?
+Measures angle; ignores magnitude.
+Effect:
+Good for text and high-dimensional data.
+
+Mahalanobis distance
+Why?
+Accounts for feature correlation.
+Effect:
+Useful for multivariate data; requires covariance matrix.
+---
+#### 4. What is the role of cross validation in model performance?
+Role: Model evaluation
+Why cross validation?
+Splits data into training and testing sets multiple times.
+Effect:
+Provides unbiased estimate of model performance; reduces overfitting risk.
+
+Role: Hyperparameter tuning
+Why?
+Tests different parameter values.
+Effect:
+Helps select best model settings; improves generalization.
+
+Role: Model selection
+Why?
+Compares multiple algorithms.
+Effect:
+Identifies most suitable model for the task.
+---
+#### 5. Explain variance and bias in terms of KNN?
+Variance
+Why variance?
+Measures sensitivity to training data changes.
+Effect:
+KNN with low k has high variance; model changes with new data.
+
+Bias
+Why bias?
+Measures error due to model assumptions.
+Effect:
+KNN with high k has high bias; predictions are averaged, less sensitive to local structure.
+
+Trade-off
+Why trade-off?
+Balance between bias and variance.
+Effect:
+Optimal k minimizes both; too low k overfits, too high k underfits.
 # Face Detection and Clustering Lab
 
 ## Aim
