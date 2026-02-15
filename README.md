@@ -138,12 +138,12 @@ Optimal k minimizes both; too low k overfits, too high k underfits.
   - Detected and extracted features from a template image
   - Predicted its cluster assignment.
 
-## Key Findings
+## FINALFindings
 - Face detection works reliably with proper cascade file loading and parameter tuning.
 - Clustering based on color features can group similar faces, but is sensitive to lighting and color variations.
 - Template matching allows classification of new faces into existing clusters
 
-## Conclusions
+## ConclusioN
 - Distance-based methods (like KNN, KMeans) are effective for classification and clustering when features are well chosen
 - Proper preprocessing and parameter selection are crucial for robust results
 - Visualizations help interpret and validate clustering/classification outcomes
