@@ -24,7 +24,7 @@ Why Cosine?
 Measures angle between vectors; useful for text and high dimensional data.
 Effect
 Ignores magnitude; focuses on orientation
----
+
 #### 2. What are some real world applications of distance based classification algorithms?
 Image recognition
 Why distance based?
@@ -49,7 +49,7 @@ Why distance-based?
 Compares user/item profiles.
 Use:
 Product, movie, and content recommendations.
----
+
 #### 3. Explain various distance metrics.
 Euclidean distance
 Why?
@@ -99,7 +99,7 @@ Why?
 Compares multiple algorithms.
 Effect:
 Identifies most suitable model for the task.
----
+
 #### 5. Explain variance and bias in terms of KNN?
 Variance
 Why variance?
@@ -171,7 +171,6 @@ Below are the actual outputs and screenshots from the lab:
 #### Plaksha Faculty
 ![Plaksha Faculty](images/Plaksha_Faculty.jpg)
 
----
 
 ## How to Run
 1. Install requirements: `pip install opencv-python numpy matplotlib scikit-learn`
@@ -179,7 +178,6 @@ Below are the actual outputs and screenshots from the lab:
 3. Run the Jupyter notebook step by step.
 4. Review the visual outputs and report answers at the end of the notebook.
 
----
 
 ## Author
 Siddharth Singh
