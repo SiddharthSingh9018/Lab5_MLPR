@@ -1,17 +1,17 @@
 ## Report: Answers to Key Questions
 
-#### 1. What are the common distance metrics used in distance-based classification algorithms?
+#### 1. What are the common distance metrics used in distance based classification algorithms?
 Metric 1: Euclidean distance
 Why Euclidean?
-Measures straight-line distance between points; intuitive and widely used.
+Measures straight line distance between points; intuitive and widely used.
 Effect
 Sensitive to scale and outliers; works best when features are normalized.
 
 Metric 2: Manhattan distance
 Why Manhattan?
-Measures sum of absolute differences; useful for grid-like data.
+Measures sum of absolute differences; useful for grid like data.
 Effect
-Less sensitive to outliers; can handle high-dimensional data better.
+Less sensitive to outliers; can handle high dimensional data better.
 
 Metric 3: Minkowski distance
 Why Minkowski?
@@ -21,25 +21,25 @@ Choice of p affects sensitivity to feature differences.
 
 Metric 4: Cosine distance
 Why Cosine?
-Measures angle between vectors; useful for text and high-dimensional data.
+Measures angle between vectors; useful for text and high dimensional data.
 Effect
-Ignores magnitude; focuses on orientation.
+Ignores magnitude; focuses on orientation
 ---
-#### 2. What are some real-world applications of distance-based classification algorithms?
+#### 2. What are some real world applications of distance based classification algorithms?
 Image recognition
-Why distance-based?
-Compares pixel or feature vectors.
-Use:
-Face, object, and handwriting recognition.
+Why distance based?
+Compares pixel or feature vectors
+Use 
+Face, object, and handwriting recognition
 
 Medical diagnosis
-Why distance-based?
+Why distance based?
 Compares patient data to known cases.
 Use:
 Disease classification, anomaly detection.
 
 Document classification
-Why distance-based?
+Why distance based?
 Compares word frequency vectors.
 Use:
 Spam detection, topic categorization.
@@ -55,11 +55,11 @@ Euclidean distance
 Why?
 Straight-line distance; most common.
 Effect:
-Sensitive to scale; requires normalization.
+Sensitive to scale, requires normalization.
 
 Manhattan distance
 Why?
-Sum of absolute differences; robust to outliers.
+Sum of absolute differences, robust to outliers.
 Effect:
 Useful for sparse or grid data.
 
@@ -67,7 +67,7 @@ Minkowski distance
 Why?
 Generalized metric; parameter p.
 Effect:
-Flexible; p=1 (Manhattan), p=2 (Euclidean).
+Flexible, p=1 (Manhattan), p=2 (Euclidean).
 
 Cosine distance
 Why?
@@ -80,7 +80,7 @@ Why?
 Accounts for feature correlation.
 Effect:
 Useful for multivariate data; requires covariance matrix.
----
+
 #### 4. What is the role of cross validation in model performance?
 Role: Model evaluation
 Why cross validation?
@@ -91,8 +91,8 @@ Provides unbiased estimate of model performance; reduces overfitting risk.
 Role: Hyperparameter tuning
 Why?
 Tests different parameter values.
-Effect:
-Helps select best model settings; improves generalization.
+Effect
+Helps select best model settings improves generalization.
 
 Role: Model selection
 Why?
