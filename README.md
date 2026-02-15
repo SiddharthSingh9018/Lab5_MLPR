@@ -32,27 +32,24 @@ This lab demonstrates face detection using OpenCV and clustering of detected fac
 ## Visualizations
 Below are the actual outputs and screenshots from the lab:
 
-### Detected Faces (Group Photo)
-![Detected Faces](../Plaksha_Faculty_faces.png)
+### Screenshot: Detected Faces (Group Photo)
+![Detected Faces](Screenshot%202026-02-15%20221501.png)
 
-### Clustered Faces by Hue and Saturation
-![Clustered Faces by Hue and Saturation](../clustered_faces_hue_saturation.png)
+### Screenshot: Clustered Faces by Hue and Saturation
+![Clustered Faces by Hue and Saturation](Screenshot%202026-02-15%20224438.png)
 
-### Scatter Plot of Face Clusters
-![Scatter Plot of Face Clusters](../scatter_plot_face_clusters.png)
+### Screenshot: Scatter Plot of Face Clusters
+![Scatter Plot of Face Clusters](Screenshot%202026-02-15%20224446.png)
 
-### Template Image Cluster Assignment
-![Template Image Cluster Assignment](../template_image_cluster_assignment.png)
-
-### Face Clusters and Template Assignment
-![Face Clusters and Template Assignment](../face_clusters_and_template_assignment.png)
+### Screenshot: Face Clusters and Template Assignment
+![Face Clusters and Template Assignment](Screenshot%202026-02-15%20224506.png)
 
 ### Source Images
 #### Dr. Shashi Tharoor
-![Dr. Shashi Tharoor](../Dr_Shashi_Tharoor.jpg)
+![Dr. Shashi Tharoor](images/Dr_Shashi_Tharoor.jpg)
 
 #### Plaksha Faculty
-![Plaksha Faculty](../Plaksha_Faculty.jpg)
+![Plaksha Faculty](images/Plaksha_Faculty.jpg)
 
 ---
 
