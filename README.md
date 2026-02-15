@@ -28,27 +28,31 @@ This lab demonstrates face detection using OpenCV and clustering of detected fac
 - Proper preprocessing and parameter selection are crucial for robust results.
 - Visualizations help interpret and validate clustering/classification outcomes.
 
+
 ## Visualizations
-Below are sample outputs from the lab:
+Below are the actual outputs and screenshots from the lab:
 
-### Detected Faces
-![Detected Faces](images/detected_faces.png)
+### Detected Faces (Group Photo)
+![Detected Faces](../Plaksha_Faculty_faces.png)
 
-### Clustering Results
-![Clustering Results](images/clustering_results.png)
+### Clustered Faces by Hue and Saturation
+![Clustered Faces by Hue and Saturation](../clustered_faces_hue_saturation.png)
 
-### Template Assignment
-![Template Assignment](images/template_assignment.png)
+### Scatter Plot of Face Clusters
+![Scatter Plot of Face Clusters](../scatter_plot_face_clusters.png)
+
+### Template Image Cluster Assignment
+![Template Image Cluster Assignment](../template_image_cluster_assignment.png)
 
 ### Face Clusters and Template Assignment
-![Face Clusters and Template Assignment](images/face_clusters_template.png)
+![Face Clusters and Template Assignment](../face_clusters_and_template_assignment.png)
 
 ### Source Images
 #### Dr. Shashi Tharoor
-![Dr. Shashi Tharoor](images/Dr_Shashi_Tharoor.jpg)
+![Dr. Shashi Tharoor](../Dr_Shashi_Tharoor.jpg)
 
 #### Plaksha Faculty
-![Plaksha Faculty](images/Plaksha_Faculty.jpg)
+![Plaksha Faculty](../Plaksha_Faculty.jpg)
 
 ---
 
