@@ -5,7 +5,7 @@ This lab demonstrates face detection using OpenCV and clustering of detected fac
 
 ## Methodology
 - **Face Detection:**
-  - Used Haar Cascade classifier to detect faces in an image (`plaksha_Faculty.jpg`).
+  - Used Haar Cascade classifier to detect faces in an image (`Plaksha_Faculty.jpg`).
   - Converted the image to grayscale for detection.
   - Drew rectangles and labeled detected faces.
 - **Feature Extraction:**
@@ -40,7 +40,15 @@ Below are sample outputs from the lab:
 ### Template Assignment
 ![Template Assignment](images/template_assignment.png)
 
-> **Note:** Replace the above image paths with your actual output images saved from the notebook.
+### Face Clusters and Template Assignment
+![Face Clusters and Template Assignment](images/face_clusters_template.png)
+
+### Source Images
+#### Dr. Shashi Tharoor
+![Dr. Shashi Tharoor](images/Dr_Shashi_Tharoor.jpg)
+
+#### Plaksha Faculty
+![Plaksha Faculty](images/Plaksha_Faculty.jpg)
 
 ---
 
