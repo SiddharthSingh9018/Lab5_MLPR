@@ -3,27 +3,27 @@
 #### 1. What are the common distance metrics used in distance based classification algorithms?
 Metric 1: Euclidean distance
 Why Euclidean?
-Measures straight line distance between points; intuitive and widely used.
+Measures straight line distance between points intuitive and widely used.
 Effect
-Sensitive to scale and outliers; works best when features are normalized.
+Sensitive to scale and outliers works best when features are normalized.
 
 Metric 2: Manhattan distance
 Why Manhattan?
-Measures sum of absolute differences; useful for grid like data.
+Measures sum of absolute differences useful for grid like data.
 Effect
-Less sensitive to outliers; can handle high dimensional data better.
+Less sensitive to outliers can handle high dimensional data better.
 
 Metric 3: Minkowski distance
 Why Minkowski?
-Generalizes Euclidean and Manhattan; allows flexibility with parameter p.
+Generalizes Euclidean and Manhattan allows flexibility with parameter p.
 Effect
 Choice of p affects sensitivity to feature differences.
 
 Metric 4: Cosine distance
 Why Cosine?
-Measures angle between vectors; useful for text and high dimensional data.
+Measures angle between vectors useful for text and high dimensional data.
 Effect
-Ignores magnitude; focuses on orientation
+Ignores magnitude focuses on orientation
 
 #### 2. What are some real world applications of distance based classification algorithms?
 Image recognition
