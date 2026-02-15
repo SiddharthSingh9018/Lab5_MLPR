@@ -114,39 +114,39 @@ Effect:
 KNN with high k has high bias; predictions are averaged, less sensitive to local structure.
 
 Trade-off
-Why trade-off?
+Why trade off?
 Balance between bias and variance.
 Effect:
 Optimal k minimizes both; too low k overfits, too high k underfits.
 # Face Detection and Clustering Lab
 
-## Aim
+## MAIN GOAL OF LAB5
  face detection OpenCV and clustering detected faces  on color features hue  saturation KMeans  understand distance classification and clustering techniques in computer vision.
 
-## Methodology
-- **Face Detection:**
-  - Used Haar Cascade classifier to detect faces in an image (`Plaksha_Faculty.jpg`).
+## STEPS
+- **FaceDetectING**
+  - Used HaarCascade .. detect faces in an image 
   - Converted the image to grayscale for detection.
   - Drew rectangles and labeled detected faces.
-- **Feature Extraction:**
+- **FeatureExtracting:**
   - Converted detected face regions to HSV color space.
   - Extracted mean hue and saturation for each face.
-- **Clustering:**
+- **Making Clusters**
   - Applied KMeans clustering (k=2) on the hue-saturation features.
   - Visualized clusters and centroids.
-- **Template Matching:**
-  - Detected and extracted features from a template image (`Dr_Shashi_Tharoor.jpg`).
+- **TemplateMatching**
+  - Detected and extracted features from a template image
   - Predicted its cluster assignment.
 
 ## Key Findings
 - Face detection works reliably with proper cascade file loading and parameter tuning.
 - Clustering based on color features can group similar faces, but is sensitive to lighting and color variations.
-- Template matching allows classification of new faces into existing clusters.
+- Template matching allows classification of new faces into existing clusters
 
 ## Conclusions
-- Distance-based methods (like KNN, KMeans) are effective for classification and clustering when features are well-chosen.
-- Proper preprocessing and parameter selection are crucial for robust results.
-- Visualizations help interpret and validate clustering/classification outcomes.
+- Distance-based methods (like KNN, KMeans) are effective for classification and clustering when features are well chosen
+- Proper preprocessing and parameter selection are crucial for robust results
+- Visualizations help interpret and validate clustering/classification outcomes
 
 
 ## Visualizations
@@ -163,20 +163,6 @@ Below are the actual outputs and screenshots from the lab:
 
 ### Screenshot: Face Clusters and Template Assignment
 ![Face Clusters and Template Assignment](Screenshot%202026-02-15%20224506.png)
-
-### Source Images
-#### Dr. Shashi Tharoor
-![Dr. Shashi Tharoor](images/Dr_Shashi_Tharoor.jpg)
-
-#### Plaksha Faculty
-![Plaksha Faculty](images/Plaksha_Faculty.jpg)
-
-
-## How to Run
-1. Install requirements: `pip install opencv-python numpy matplotlib scikit-learn`
-2. Place the required images in the working directory.
-3. Run the Jupyter notebook step by step.
-4. Review the visual outputs and report answers at the end of the notebook.
 
 
 ## Author
