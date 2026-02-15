@@ -121,7 +121,7 @@ Optimal k minimizes both; too low k overfits, too high k underfits.
 # Face Detection and Clustering Lab
 
 ## Aim
-This lab demonstrates face detection using OpenCV and clustering of detected faces based on color features (hue and saturation) using KMeans. The goal is to understand distance-based classification and clustering techniques in computer vision.
+ face detection OpenCV and clustering detected faces  on color features hue  saturation KMeans  understand distance classification and clustering techniques in computer vision.
 
 ## Methodology
 - **Face Detection:**
